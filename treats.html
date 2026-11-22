@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Our Treats | Curbside Cravings</title>
+	<link rel="stylesheet" href="styles.css">
+
+	<!--Final project for CMIS 410 by Payten Shrader, all content is fictional for a class project-->
+<body>
+	<div id="wrapper">
+		<header>
+			<a href="index.html">
+				<img src="images/logo.jpg" alt="Curbside Cravings homepage">
+						
+			</a>
+			<p>Treats for every occasion</p>
+		</header>
+
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="treats">Our Treats</a>
+			<a href="about">About Me</a>
+			<a href="contact">Contact</a>
+		</nav>
+		
+<main class="treats-page">
+	<section class="menu-intro">
+		<div>
+			<h1>Our Treats</h1>
+			<p>From a six-pack of cupcakes for a birthday to pumpkin bars for a cozy weekend, there's always a reason to grab something sweet.</p>
+			<a class="menu-button" href="order">Start an Order Inquiry</a>
+		</div>
+
+		<img src="images/sugarcravings.jpg" alt="Cream Sugar Cravings graphic">
+	</section>
+
+	<section>
+		<h2>On the Menu</h2>
+		<table>
+			<caption>Curbside Cravings menu and prices</caption>
+			<thead>
+				<tr>
+					<th scope="col">Treat</th>
+					<th scope="col">Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td>Cupcakes</td><td>$8 per six-pack</td></tr>
+				<tr><td>Brownie Bites</td><td>$8</td></tr>
+				<tr><td>Pumpkin Bars</td><td>$15</td></tr>
+				<tr><td>Cinnamon Rolls</td><td>$15</td></tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section class="baking-video">
+		<h2>A Little Baking Inspiration</h2>
+
+		<div class="video-center">
+		<video width="480" control autoplay muted loop playsinline>
+			<source src="images/cupcakevideo.mp4" type="video/mp4">
+			</div>
+		</video>
+	</section>
+
+	<section id="order" class="order-section">
+		<h2>Order Inquiry</h2>
+		<p>This is a sample order form for a class project. No Orders are placed.</p>
+
+		<form>
+			<label for="customer-name">Name</label>
+			<input type="text" id="customer-name" name="customer-name">
+
+			<label for="customer-email">Email</label>
+			<input type="email" id="customer-email" name="customer-email">
+
+			<label for="treat">What would you like?</label>
+			<select id="treat" id="treat" name="treat">
+				<option value=" ">Choose a treat</option>
+				<option>Cupcakes</option>
+				<option>Brownie Bites</option>
+				<option>Pumpkin Bars</option>
+				<option>Cinnamon Rolls</option>
+			</select>
+
+		<label for="pickup">Preferred pickup date</label>
+		<input type="date" id="pickup" name="pickup" >
+
+		<label fro="details">Quantity, flavor, or other details</label>
+		<textarea id="details" name="details" row="4"></textarea>
+		</form>
+	</section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
